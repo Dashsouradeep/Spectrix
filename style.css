@@ -130,7 +130,7 @@ html, body {
 
 }
 .page2-container{
-    height: 60vh;
+    min-height: 60vh;
     width: 100%;
     /* background-color: red; */
     display: flex;
