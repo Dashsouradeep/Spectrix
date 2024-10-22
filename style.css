@@ -130,13 +130,13 @@ html, body {
 
 }
 .page2-container{
-    height: 60vh;
+    min-height: 100vh; /* Ensure enough space for the content */
     width: 100%;
-    /* background-color: red; */
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Align items to the top to avoid vertical overlap */
     justify-content: space-between;
-    /* padding: 0 5vw; */
+    padding: 5vw; /* Add padding for overall spacing */
+    box-sizing: border-box; /* Ensure padding doesn't add to width */
 }
 .page2-left{
     /* background-color: blue; */
